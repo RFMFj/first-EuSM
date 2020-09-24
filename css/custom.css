@@ -1,0 +1,219 @@
+.page-section {
+  padding: 50px 0;
+}
+
+.timeline li{
+    margin-bottom: 50px;
+}
+.timeline-panel {
+    margin-top: 10px;
+}
+
+header.masthead {
+  text-align: center;
+  color: white;
+  background: linear-gradient(
+     rgba(0, 0, 0, 0.25), 
+     rgba(0, 0, 0, 0.25)
+   ),url("../img/lieu/monastere-de-segries_exterieur.jpg");no-repeat;background-size:cover;
+
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+.modalimg img:hover {
+    opacity: 0.8;
+}
+
+.section-subheading {
+  margin: 50px 0 10px 0 !important; 
+  font-size: 40px !important;
+}
+
+ul.com-buttons li {
+     font-size: 20px !important;
+     line-height: 50px !important;
+     /* display: block; */
+     width: 50px !important;
+     height: 50px !important;
+     transition: all .3s !important;
+     color: #fff !important;
+     border-radius: 100% !important;
+     outline: 0 !important;
+     background-color: #212529 !important;
+ }
+
+.portfolio-modal .modal-content ul.list-inline {
+    margin-bottom: 10px !important;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@font-face {
+font-family: "robotaFont";
+src:url("robota-noncommercial.regular.otf") format("opentype");
+}
+
+
+@media(min-width:300px) {
+    header.masthead .intro-text .intro-heading {
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 50px;
+        margin-bottom: 25px;
+        font-family: 'robotaFont', 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    }
+}
+
+@font-face {
+font-family: "CustomFont";
+src: url("CustomFont.eot");
+src: url("CustomFont.woff") format("woff"),
+url("CustomFont.otf") format("opentype"),
+url("CustomFont.svg#filename") format("svg");
+}
+
+@media(min-width:300px) {
+    .page-section h2.section-heading {
+       font-family: 'robotaFont';
+       /*color: #1D4971;*/
+       font-weight: 400;
+        font-size: 50px;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+}
+
+/* Map */
+.map {
+  height: 30rem;
+}
+
+@media (max-width: 992px) {
+  .map {
+    height: 75%;
+  }
+}
+
+.map iframe {
+  pointer-events: none;
+}
+
+.map iframe {
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+
+
+/* COUNTDOWN CONFIGURATION */
+
+.countdown-divider {
+  padding: 144px 0px;
+}
+
+.countdown-divider img, {
+  max-width: 300px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.countdown-header h1 {
+  margin-bottom: 0px;
+}
+
+.countdown-header:before {
+  opacity: 0.8 !important;
+}
+
+.countdown-header .uppercase {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+@media all and (max-width: 768px) {
+  .countdown-header img {
+    max-width: 150px;
+  }
+}
+
+.countdown {
+  text-align: center;
+  margin-top: 72px;
+}
+
+.countdown-row {
+  color: #000;
+  font-size: 80px;
+  font-weight: 300;
+}
+
+.countdown-section {
+  width: 25%;
+  display: inline-block;
+}
+
+.countdown-amount {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.countdown-period {
+  display: block;
+  font-size: 24px;
+}
+
+@media all and (max-width: 767px) {
+  .countdown {
+    margin-top: 48px;
+  }
+  .countdown-row {
+    font-size: 36px;
+  }
+  .countdown-period {
+    font-size: 16px;
+  }
+}
+/*
+#h {
+  background: url(../img/header.jpg) no-repeat center top;
+  padding-top: 150px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 700px;
+  width: 100%;
+  color: white;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#h h1 {
+  font-weight: 900;
+  font-size: 60px;
+  letter-spacing: 1px;
+}
+
+#h h2 {
+  font-size: 38px;
+}
+
+#h h5 {
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  margin-bottom: 25px;
+}*/
