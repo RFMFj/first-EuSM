@@ -1,3 +1,7 @@
+.portfolio-item img {
+  width: -webkit-fill-available;
+}
+
 .page-section {
   padding: 50px 0;
 }
@@ -9,8 +13,18 @@
     margin-top: 10px;
 }
 
+.highlight {
+  font-size: larger;
+  color: #fEC810;
+  font-weight: bold;
+}
+
 #Organiser .img-fluid{
     margin-bottom: 30px;
+}
+
+#Contact h4 {
+  margin-bottom: 16px;
 }
 
 #localcommity h4 {
