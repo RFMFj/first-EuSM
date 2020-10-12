@@ -14,9 +14,9 @@
 }
 
 .highlight {
-  font-size: larger;
-  color: #fEC810;
-  font-weight: bold;
+  font-size: larger !important;
+  color: #fEC810 !important;
+  font-weight: bold !important;
 }
 
 #Organiser .img-fluid{
